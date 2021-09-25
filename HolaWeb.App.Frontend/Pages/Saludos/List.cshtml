@@ -3,6 +3,15 @@
 @{
 }
 <h1>Listado de Saludos en Varios Idiomas</h1>
+@*
+<form method="get">
+    <div class="form-group">
+        <p>
+            Saludo: <input type="text" name="filtro" asp-for="FiltroBusqueda"/>
+            <input type="submit" value="Filtrar" />
+        </p>
+    </div>
+</form>
 <table class="table">
     @foreach (var saludo in Model.Saludos)
     {
@@ -10,6 +19,35 @@
             <td>@saludo.EnEspañol</td>
             <td>@saludo.EnIngles</td>
             <td>@saludo.EnItaliano</td>
+            <td>@saludo.Id</td>
         </tr>
     }
-</table>
+</table>*@
+@*<table class="table">
+    @foreach (var saludo in Model.Saludos)
+    {
+        <tr>
+            <td>@saludo.EnEspañol</td>
+            <td>@saludo.EnIngles</td>
+            <td>@saludo.EnItaliano</td>
+            <td>
+                <a class="btn btn-primary table-btn" asp-page="/Saludos/Detalles" asp-route-saludoId="@saludo.Id">
+                <i class="fas fa-info-circle"></i>
+                Detalle Saludo
+                </a>
+            </td>
+        </tr>
+    }
+</table>*@
+<form method="get">
+    <div class="form-group">
+        <p>
+            Saludo: <input type="text" name="filtroHora" asp-for="FiltroBusquedaHora"/>
+            <input type="submit" value="Filtrar" />
+        </p>
+    </div>
+</form>
+
+@Model.Saludo.EnEspañol
+@Model.Saludo.EnIngles
+@Model.Saludo.EnItaliano
