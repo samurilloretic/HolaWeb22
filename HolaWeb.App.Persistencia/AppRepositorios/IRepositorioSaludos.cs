@@ -16,5 +16,7 @@ namespace HolaWeb.App.Persistencia.AppRepositorios
         Saludo GetSaludoPorId(DateTime Id);
 
         Saludo Update(Saludo saludoActualizado);
+
+        Saludo Add(Saludo saludoNuevo);
     }
 }

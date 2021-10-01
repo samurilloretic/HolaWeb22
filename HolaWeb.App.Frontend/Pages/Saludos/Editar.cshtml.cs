@@ -18,9 +18,16 @@ namespace HolaWeb.App.Frontend.Pages
         {
             this.repositorioSaludos = repositorioSaludos;
         }
-        public IActionResult OnGet(int saludoId)
+        public IActionResult OnGet(int? saludoId)
         {
-            Saludo = repositorioSaludos.GetSaludoPorId(saludoId);
+            if(saludoId.HasValue)
+            {
+                Saludo = repositorioSaludos.GetSaludoPorId(saludoId.Value);
+            }else
+            {
+                Saludo = new Saludo();
+            }
+            
             if(Saludo==null)
             {
                 return RedirectToPage("./List");
@@ -28,8 +35,15 @@ namespace HolaWeb.App.Frontend.Pages
             return Page();
         }
         public IActionResult OnPost()
-        {            
-            Saludo = repositorioSaludos.Update(Saludo);
+        {         
+            if (Saludo.Id>0)
+            {
+                Saludo = repositorioSaludos.Update(Saludo);
+            }else
+            {
+                repositorioSaludos.Add(Saludo);
+                return RedirectToPage("./List");
+            }            
             return Page();
         }
     }

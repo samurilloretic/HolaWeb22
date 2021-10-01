@@ -20,6 +20,14 @@ namespace HolaWeb.App.Persistencia.AppRepositorios
                 new Saludo{Id=4,EnEspañol="Hora Invalida",EnIngles="Invalid hour",EnItaliano="Tempo no valido"}
             };
         }
+
+        public Saludo Add(Saludo saludoNuevo)
+        {
+            saludoNuevo.Id=saludos.Max(r=>r.Id)+1;
+            saludos.Add(saludoNuevo);
+            return saludoNuevo;
+        }
+
         public IEnumerable<Saludo> GetAll()
         {
             return saludos;
