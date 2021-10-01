@@ -23,22 +23,22 @@ namespace HolaWeb.App.Frontend.Pages
             this.repositorioSaludos=repositorioSaludos;
        }
        
-        /*public void OnGet(string filtro)
+        public void OnGet(string filtro)
         {
             //ListaSaludos = new List<string>();
             //ListaSaludos.AddRange(saludos);
-            //Saludos=repositorioSaludos.GetAll();
-            Saludos = repositorioSaludos.GetSaludoFiltro(filtro);
+            Saludos=repositorioSaludos.GetAll();
+            /*Saludos = repositorioSaludos.GetSaludoFiltro(filtro);
             FiltroBusqueda=filtro;
             foreach (var saludo in Saludos)
             {
                 Console.WriteLine(saludo.EnEspañol);
-            }
-        }*/
-        public void OnGet(DateTime filtroHora)
+            }*/
+        }
+        /*public void OnGet(DateTime filtroHora)
         {
             Saludo = repositorioSaludos.GetSaludoPorId(filtroHora);
             FiltroBusquedaHora=filtroHora;
-        }
+        }*/
     }
 }

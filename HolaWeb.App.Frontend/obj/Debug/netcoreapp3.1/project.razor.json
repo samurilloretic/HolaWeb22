@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\HolaWeb\\HolaWeb.App\\HolaWeb.App.Frontend\\HolaWeb.App.Frontend.csproj",
+  "FilePath": "c:\\Saludos22\\MisionTIC-2021-Ciclo3-WF\\HolaWeb.App.Frontend\\HolaWeb.App.Frontend.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -14402,43 +14402,53 @@
   "RootNamespace": "HolaWeb.App.Frontend",
   "Documents": [
     {
-      "FilePath": "c:\\HolaWeb\\HolaWeb.App\\HolaWeb.App.Frontend\\Pages\\Shared\\_Layout.cshtml",
-      "TargetPath": "Pages\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\HolaWeb\\HolaWeb.App\\HolaWeb.App.Frontend\\Pages\\Index.cshtml",
-      "TargetPath": "Pages\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\HolaWeb\\HolaWeb.App\\HolaWeb.App.Frontend\\Pages\\_ViewStart.cshtml",
-      "TargetPath": "Pages\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\HolaWeb\\HolaWeb.App\\HolaWeb.App.Frontend\\Pages\\Error.cshtml",
-      "TargetPath": "Pages\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\HolaWeb\\HolaWeb.App\\HolaWeb.App.Frontend\\Pages\\Saludos\\List.cshtml",
+      "FilePath": "c:\\Saludos22\\MisionTIC-2021-Ciclo3-WF\\HolaWeb.App.Frontend\\Pages\\Saludos\\List.cshtml",
       "TargetPath": "Pages\\Saludos\\List.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\HolaWeb\\HolaWeb.App\\HolaWeb.App.Frontend\\Pages\\Privacy.cshtml",
-      "TargetPath": "Pages\\Privacy.cshtml",
+      "FilePath": "c:\\Saludos22\\MisionTIC-2021-Ciclo3-WF\\HolaWeb.App.Frontend\\Pages\\Saludos\\Editar.cshtml",
+      "TargetPath": "Pages\\Saludos\\Editar.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\HolaWeb\\HolaWeb.App\\HolaWeb.App.Frontend\\Pages\\_ViewImports.cshtml",
+      "FilePath": "c:\\Saludos22\\MisionTIC-2021-Ciclo3-WF\\HolaWeb.App.Frontend\\Pages\\Shared\\_Layout.cshtml",
+      "TargetPath": "Pages\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Saludos22\\MisionTIC-2021-Ciclo3-WF\\HolaWeb.App.Frontend\\Pages\\_ViewImports.cshtml",
       "TargetPath": "Pages\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\HolaWeb\\HolaWeb.App\\HolaWeb.App.Frontend\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FilePath": "c:\\Saludos22\\MisionTIC-2021-Ciclo3-WF\\HolaWeb.App.Frontend\\Pages\\_ViewStart.cshtml",
+      "TargetPath": "Pages\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Saludos22\\MisionTIC-2021-Ciclo3-WF\\HolaWeb.App.Frontend\\Pages\\Saludos\\Detalles.cshtml",
+      "TargetPath": "Pages\\Saludos\\Detalles.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Saludos22\\MisionTIC-2021-Ciclo3-WF\\HolaWeb.App.Frontend\\Pages\\Error.cshtml",
+      "TargetPath": "Pages\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Saludos22\\MisionTIC-2021-Ciclo3-WF\\HolaWeb.App.Frontend\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Saludos22\\MisionTIC-2021-Ciclo3-WF\\HolaWeb.App.Frontend\\Pages\\Privacy.cshtml",
+      "TargetPath": "Pages\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Saludos22\\MisionTIC-2021-Ciclo3-WF\\HolaWeb.App.Frontend\\Pages\\Index.cshtml",
+      "TargetPath": "Pages\\Index.cshtml",
       "FileKind": "mvc"
     }
   ],

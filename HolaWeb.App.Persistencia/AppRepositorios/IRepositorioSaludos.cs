@@ -1,6 +1,8 @@
 using System.Collections.Generic;
 using HolaWeb.App.Dominio;
 using System;
+using System.IO.Pipes;
+
 namespace HolaWeb.App.Persistencia.AppRepositorios
 {
     public interface IRepositorioSaludos
@@ -13,5 +15,6 @@ namespace HolaWeb.App.Persistencia.AppRepositorios
 
         Saludo GetSaludoPorId(DateTime Id);
 
+        Saludo Update(Saludo saludoActualizado);
     }
 }

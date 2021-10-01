@@ -23,7 +23,7 @@
         </tr>
     }
 </table>*@
-@*<table class="table">
+<table class="table">
     @foreach (var saludo in Model.Saludos)
     {
         <tr>
@@ -33,13 +33,17 @@
             <td>
                 <a class="btn btn-primary table-btn" asp-page="/Saludos/Detalles" asp-route-saludoId="@saludo.Id">
                 <i class="fas fa-info-circle"></i>
-                Detalle Saludo
                 </a>
             </td>
+            <td>
+                <a class="btn btn-secondary table-btn" asp-page="/Saludos/Editar" asp-route-saludoId="@saludo.Id">
+                <i class="fas fa-address-book"></i>
+                </a>
+            </td>            
         </tr>
     }
-</table>*@
-<form method="get">
+</table>
+@*<form method="get">
     <div class="form-group">
         <p>
             Saludo: <input type="text" name="filtroHora" asp-for="FiltroBusquedaHora"/>
@@ -50,4 +54,4 @@
 
 @Model.Saludo.EnEspañol
 @Model.Saludo.EnIngles
-@Model.Saludo.EnItaliano
+@Model.Saludo.EnItaliano*@
