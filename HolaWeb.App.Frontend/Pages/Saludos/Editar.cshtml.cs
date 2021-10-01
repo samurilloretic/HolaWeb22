@@ -36,6 +36,12 @@ namespace HolaWeb.App.Frontend.Pages
         }
         public IActionResult OnPost()
         {         
+            if(!ModelState.IsValid)
+            {
+                return Page();
+            }
+
+
             if (Saludo.Id>0)
             {
                 Saludo = repositorioSaludos.Update(Saludo);
