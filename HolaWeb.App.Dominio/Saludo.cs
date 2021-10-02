@@ -5,7 +5,7 @@ namespace HolaWeb.App.Dominio
     public class Saludo
     {
         public int Id {get;set;}
-        [Required]
+        [Required(ErrorMessage = "Este campo es requerido")]
         public string EnEspañol {get;set;}
         [Required]
         [EmailAddress]

@@ -18,5 +18,7 @@ namespace HolaWeb.App.Persistencia.AppRepositorios
         Saludo Update(Saludo saludoActualizado);
 
         Saludo Add(Saludo saludoNuevo);
+
+        Saludo Delete(Saludo saludoEliminar);
     }
 }

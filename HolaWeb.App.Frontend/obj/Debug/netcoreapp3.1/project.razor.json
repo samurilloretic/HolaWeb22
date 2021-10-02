@@ -14442,6 +14442,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Saludos22\\MisionTIC-2021-Ciclo3-WF\\HolaWeb.App.Frontend\\Pages\\Saludos\\Eliminar.cshtml",
+      "TargetPath": "Pages\\Saludos\\Eliminar.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Saludos22\\MisionTIC-2021-Ciclo3-WF\\HolaWeb.App.Frontend\\Pages\\Privacy.cshtml",
       "TargetPath": "Pages\\Privacy.cshtml",
       "FileKind": "mvc"

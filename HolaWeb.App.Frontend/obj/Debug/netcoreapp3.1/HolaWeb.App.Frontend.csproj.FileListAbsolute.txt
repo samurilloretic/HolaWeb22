@@ -83,3 +83,4 @@ C:\Saludos22\MisionTIC-2021-Ciclo3-WF\HolaWeb.App.Frontend\obj\Debug\netcoreapp3
 C:\Saludos22\MisionTIC-2021-Ciclo3-WF\HolaWeb.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Saludos\Detalles.cshtml.g.cs
 C:\Saludos22\MisionTIC-2021-Ciclo3-WF\HolaWeb.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Saludos\Editar.cshtml.g.cs
 C:\Saludos22\MisionTIC-2021-Ciclo3-WF\HolaWeb.App.Frontend\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+C:\Saludos22\MisionTIC-2021-Ciclo3-WF\HolaWeb.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Saludos\Eliminar.cshtml.g.cs

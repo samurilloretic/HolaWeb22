@@ -39,7 +39,12 @@
                 <a class="btn btn-secondary table-btn" asp-page="/Saludos/Editar" asp-route-saludoId="@saludo.Id">
                 <i class="fas fa-address-book"></i>
                 </a>
-            </td>            
+            </td>   
+            <td>
+                <a class="btn btn-danger table-btn" asp-page="/Saludos/Eliminar" asp-route-saludoId="@saludo.Id">
+                <i class="fas fa-book-dead"></i>
+                </a>
+            </td>          
         </tr>
     }
 </table>
